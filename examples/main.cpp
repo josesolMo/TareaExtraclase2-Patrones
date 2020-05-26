@@ -1,14 +1,14 @@
 
-#ifndef __io__
-#define __io__
+//_____________
+//PARTE DE JOSE\______________________________________
+
+/*
 #include <iostream>
-using namespace std;
-#endif
-
 #include "sources/AbstractFactoryFiles/CarFactory.cpp"
+using namespace std;
 
-#define SIMPLE_CAR 1
-//#define LUXURY_CAR 1
+//#define SIMPLE_CAR 1
+#define LUXURY_CAR 1
 
 int main() {
 
@@ -25,8 +25,10 @@ int main() {
 
     return 0;
 }
+*/
 
-
+//_______________
+//PARTE DE HAZIEL\__________________________________
 
 /*
 #include <iostream>
@@ -52,3 +54,19 @@ int main() {
     return 0;
 }
 */
+
+//______________
+//PARTE DE JAROD\____________________________
+
+
+#include <iostream>
+#include "headers/FacadeFIles/accountManager.h"
+#include "headers/FacadeFIles/bank.h"
+
+using namespace std;
+int main() {
+    cout << "Welcome to Facade Bank" << endl;
+    bank bank;
+    bank.initAtm();
+    return 0;
+}

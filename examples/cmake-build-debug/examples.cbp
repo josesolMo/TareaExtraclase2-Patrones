@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/FacadeFIles/accountManager.h">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/FacadeFIles/bank.h">
+			<Option target="examples"/>
+		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/ObserverFIles/ConcreteObserver.h">
 			<Option target="examples"/>
 		</Unit>
@@ -100,6 +106,12 @@
 			<Option target="examples"/>
 		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/AbstractFactoryFiles/CarFactory.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/FacadeFiles/accountManager.cpp">
+			<Option target="examples"/>
+		</Unit>
+		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/FacadeFiles/bank.cpp">
 			<Option target="examples"/>
 		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/ObserverFiles/ConcreteObserver.cpp">

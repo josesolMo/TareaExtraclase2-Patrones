@@ -2,11 +2,10 @@
 // Created by jose on 21/05/20.
 //
 
-#ifndef __io__
-#define __io__
+
 #include <iostream>
 using namespace std;
-#endif
+
 
 #include "Car.cpp"
 
@@ -16,10 +15,11 @@ private:
 protected:
     virtual Tire * buildTire() = 0;
     virtual Body * buildBody() = 0;
-    // much more product's parts could come here...
+    // Aquí se podrian incluir más partes de proucto
 public:
     virtual Car* buildWholeCar() = 0;
 };
+
 
 class SimpleCarFactory : public CarFactory {
     Tire * buildTire() {
@@ -36,6 +36,7 @@ class SimpleCarFactory : public CarFactory {
         return car;
     }
 };
+
 
 class LuxuryCarFactory : public CarFactory {
     Tire * buildTire() {

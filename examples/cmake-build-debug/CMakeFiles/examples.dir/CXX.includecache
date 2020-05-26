@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/FacadeFIles/accountManager.h
+
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/FacadeFIles/bank.h
+accountManager.h
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/FacadeFIles/accountManager.h
+
 /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/ObserverFIles/ConcreteObserver.h
 ConcreteSubject.h
 /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/ObserverFIles/ConcreteSubject.h
@@ -39,6 +45,12 @@ headers/ObserverFIles/ConcreteSubject.h
 /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/ObserverFIles/ConcreteSubject.h
 headers/ObserverFIles/ConcreteObserver.h
 /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/ObserverFIles/ConcreteObserver.h
+iostream
+-
+headers/FacadeFIles/accountManager.h
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/FacadeFIles/accountManager.h
+headers/FacadeFIles/bank.h
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/FacadeFIles/bank.h
 
 /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/AbstractFactoryFiles/Car.cpp
 iostream
@@ -49,4 +61,18 @@ iostream
 -
 Car.cpp
 /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/AbstractFactoryFiles/Car.cpp
+
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/FacadeFiles/accountManager.cpp
+../../headers/FacadeFIles/accountManager.h
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/FacadeFIles/accountManager.h
+iostream
+-
+
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/FacadeFiles/bank.cpp
+../../headers/FacadeFIles/bank.h
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/FacadeFIles/bank.h
+../../headers/FacadeFIles/accountManager.h
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/headers/FacadeFIles/accountManager.h
+iostream
+-
 

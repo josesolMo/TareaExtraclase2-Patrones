@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/examples.dir/sources/ObserverFiles/Subject.cpp.o"
   "CMakeFiles/examples.dir/sources/ObserverFiles/ConcreteSubject.cpp.o"
   "CMakeFiles/examples.dir/sources/ObserverFiles/ConcreteObserver.cpp.o"
+  "CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.o"
+  "CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.o"
   "examples.pdb"
   "examples"
 )

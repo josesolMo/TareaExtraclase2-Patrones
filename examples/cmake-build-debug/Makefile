@@ -204,6 +204,60 @@ sources/AbstractFactoryFiles/CarFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/examples.dir/build.make CMakeFiles/examples.dir/sources/AbstractFactoryFiles/CarFactory.cpp.s
 .PHONY : sources/AbstractFactoryFiles/CarFactory.cpp.s
 
+sources/FacadeFiles/accountManager.o: sources/FacadeFiles/accountManager.cpp.o
+
+.PHONY : sources/FacadeFiles/accountManager.o
+
+# target to build an object file
+sources/FacadeFiles/accountManager.cpp.o:
+	$(MAKE) -f CMakeFiles/examples.dir/build.make CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.o
+.PHONY : sources/FacadeFiles/accountManager.cpp.o
+
+sources/FacadeFiles/accountManager.i: sources/FacadeFiles/accountManager.cpp.i
+
+.PHONY : sources/FacadeFiles/accountManager.i
+
+# target to preprocess a source file
+sources/FacadeFiles/accountManager.cpp.i:
+	$(MAKE) -f CMakeFiles/examples.dir/build.make CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.i
+.PHONY : sources/FacadeFiles/accountManager.cpp.i
+
+sources/FacadeFiles/accountManager.s: sources/FacadeFiles/accountManager.cpp.s
+
+.PHONY : sources/FacadeFiles/accountManager.s
+
+# target to generate assembly for a file
+sources/FacadeFiles/accountManager.cpp.s:
+	$(MAKE) -f CMakeFiles/examples.dir/build.make CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.s
+.PHONY : sources/FacadeFiles/accountManager.cpp.s
+
+sources/FacadeFiles/bank.o: sources/FacadeFiles/bank.cpp.o
+
+.PHONY : sources/FacadeFiles/bank.o
+
+# target to build an object file
+sources/FacadeFiles/bank.cpp.o:
+	$(MAKE) -f CMakeFiles/examples.dir/build.make CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.o
+.PHONY : sources/FacadeFiles/bank.cpp.o
+
+sources/FacadeFiles/bank.i: sources/FacadeFiles/bank.cpp.i
+
+.PHONY : sources/FacadeFiles/bank.i
+
+# target to preprocess a source file
+sources/FacadeFiles/bank.cpp.i:
+	$(MAKE) -f CMakeFiles/examples.dir/build.make CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.i
+.PHONY : sources/FacadeFiles/bank.cpp.i
+
+sources/FacadeFiles/bank.s: sources/FacadeFiles/bank.cpp.s
+
+.PHONY : sources/FacadeFiles/bank.s
+
+# target to generate assembly for a file
+sources/FacadeFiles/bank.cpp.s:
+	$(MAKE) -f CMakeFiles/examples.dir/build.make CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.s
+.PHONY : sources/FacadeFiles/bank.cpp.s
+
 sources/ObserverFiles/ConcreteObserver.o: sources/ObserverFiles/ConcreteObserver.cpp.o
 
 .PHONY : sources/ObserverFiles/ConcreteObserver.o
@@ -303,6 +357,12 @@ help:
 	@echo "... sources/AbstractFactoryFiles/CarFactory.o"
 	@echo "... sources/AbstractFactoryFiles/CarFactory.i"
 	@echo "... sources/AbstractFactoryFiles/CarFactory.s"
+	@echo "... sources/FacadeFiles/accountManager.o"
+	@echo "... sources/FacadeFiles/accountManager.i"
+	@echo "... sources/FacadeFiles/accountManager.s"
+	@echo "... sources/FacadeFiles/bank.o"
+	@echo "... sources/FacadeFiles/bank.i"
+	@echo "... sources/FacadeFiles/bank.s"
 	@echo "... sources/ObserverFiles/ConcreteObserver.o"
 	@echo "... sources/ObserverFiles/ConcreteObserver.i"
 	@echo "... sources/ObserverFiles/ConcreteObserver.s"

@@ -135,6 +135,32 @@ CMakeFiles/examples.dir/sources/ObserverFiles/ConcreteObserver.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/examples.dir/sources/ObserverFiles/ConcreteObserver.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/ObserverFiles/ConcreteObserver.cpp -o CMakeFiles/examples.dir/sources/ObserverFiles/ConcreteObserver.cpp.s
 
+CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.o: CMakeFiles/examples.dir/flags.make
+CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.o: ../sources/FacadeFiles/bank.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.o -c /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/FacadeFiles/bank.cpp
+
+CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/FacadeFiles/bank.cpp > CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.i
+
+CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/FacadeFiles/bank.cpp -o CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.s
+
+CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.o: CMakeFiles/examples.dir/flags.make
+CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.o: ../sources/FacadeFiles/accountManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.o -c /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/FacadeFiles/accountManager.cpp
+
+CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/FacadeFiles/accountManager.cpp > CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.i
+
+CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/sources/FacadeFiles/accountManager.cpp -o CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.s
+
 # Object files for target examples
 examples_OBJECTS = \
 "CMakeFiles/examples.dir/main.cpp.o" \
@@ -142,7 +168,9 @@ examples_OBJECTS = \
 "CMakeFiles/examples.dir/sources/AbstractFactoryFiles/CarFactory.cpp.o" \
 "CMakeFiles/examples.dir/sources/ObserverFiles/Subject.cpp.o" \
 "CMakeFiles/examples.dir/sources/ObserverFiles/ConcreteSubject.cpp.o" \
-"CMakeFiles/examples.dir/sources/ObserverFiles/ConcreteObserver.cpp.o"
+"CMakeFiles/examples.dir/sources/ObserverFiles/ConcreteObserver.cpp.o" \
+"CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.o" \
+"CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.o"
 
 # External object files for target examples
 examples_EXTERNAL_OBJECTS =
@@ -153,9 +181,11 @@ examples: CMakeFiles/examples.dir/sources/AbstractFactoryFiles/CarFactory.cpp.o
 examples: CMakeFiles/examples.dir/sources/ObserverFiles/Subject.cpp.o
 examples: CMakeFiles/examples.dir/sources/ObserverFiles/ConcreteSubject.cpp.o
 examples: CMakeFiles/examples.dir/sources/ObserverFiles/ConcreteObserver.cpp.o
+examples: CMakeFiles/examples.dir/sources/FacadeFiles/bank.cpp.o
+examples: CMakeFiles/examples.dir/sources/FacadeFiles/accountManager.cpp.o
 examples: CMakeFiles/examples.dir/build.make
 examples: CMakeFiles/examples.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/examples/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable examples"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/examples.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
