@@ -1,0 +1,3 @@
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles/abstract_factory_ej.dir
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles/edit_cache.dir
