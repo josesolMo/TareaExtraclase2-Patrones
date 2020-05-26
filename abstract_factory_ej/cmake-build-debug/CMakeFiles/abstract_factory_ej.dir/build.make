@@ -70,47 +70,92 @@ CMakeFiles/abstract_factory_ej.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstract_factory_ej.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/main.cpp -o CMakeFiles/abstract_factory_ej.dir/main.cpp.s
 
-CMakeFiles/abstract_factory_ej.dir/Car.cpp.o: CMakeFiles/abstract_factory_ej.dir/flags.make
-CMakeFiles/abstract_factory_ej.dir/Car.cpp.o: ../Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/abstract_factory_ej.dir/Car.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstract_factory_ej.dir/Car.cpp.o -c /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/Car.cpp
+CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.o: CMakeFiles/abstract_factory_ej.dir/flags.make
+CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.o: ../sources/AbstractFactoryFiles/Car.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.o -c /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/Car.cpp
 
-CMakeFiles/abstract_factory_ej.dir/Car.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstract_factory_ej.dir/Car.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/Car.cpp > CMakeFiles/abstract_factory_ej.dir/Car.cpp.i
+CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/Car.cpp > CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.i
 
-CMakeFiles/abstract_factory_ej.dir/Car.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstract_factory_ej.dir/Car.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/Car.cpp -o CMakeFiles/abstract_factory_ej.dir/Car.cpp.s
+CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/Car.cpp -o CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.s
 
-CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.o: CMakeFiles/abstract_factory_ej.dir/flags.make
-CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.o: ../CarFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.o -c /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/CarFactory.cpp
+CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.o: CMakeFiles/abstract_factory_ej.dir/flags.make
+CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.o: ../sources/AbstractFactoryFiles/CarFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.o -c /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/CarFactory.cpp
 
-CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/CarFactory.cpp > CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.i
+CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/CarFactory.cpp > CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.i
 
-CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/CarFactory.cpp -o CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.s
+CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/CarFactory.cpp -o CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.s
+
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.o: CMakeFiles/abstract_factory_ej.dir/flags.make
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.o: ../sources/ObserverFiles/Subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.o -c /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/Subject.cpp
+
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/Subject.cpp > CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.i
+
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/Subject.cpp -o CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.s
+
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.o: CMakeFiles/abstract_factory_ej.dir/flags.make
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.o: ../sources/ObserverFiles/ConcreteSubject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.o -c /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/ConcreteSubject.cpp
+
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/ConcreteSubject.cpp > CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.i
+
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/ConcreteSubject.cpp -o CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.s
+
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.o: CMakeFiles/abstract_factory_ej.dir/flags.make
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.o: ../sources/ObserverFiles/ConcreteObserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.o -c /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/ConcreteObserver.cpp
+
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/ConcreteObserver.cpp > CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.i
+
+CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/ConcreteObserver.cpp -o CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.s
 
 # Object files for target abstract_factory_ej
 abstract_factory_ej_OBJECTS = \
 "CMakeFiles/abstract_factory_ej.dir/main.cpp.o" \
-"CMakeFiles/abstract_factory_ej.dir/Car.cpp.o" \
-"CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.o"
+"CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.o" \
+"CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.o" \
+"CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.o" \
+"CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.o" \
+"CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.o"
 
 # External object files for target abstract_factory_ej
 abstract_factory_ej_EXTERNAL_OBJECTS =
 
 abstract_factory_ej: CMakeFiles/abstract_factory_ej.dir/main.cpp.o
-abstract_factory_ej: CMakeFiles/abstract_factory_ej.dir/Car.cpp.o
-abstract_factory_ej: CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.o
+abstract_factory_ej: CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.o
+abstract_factory_ej: CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.o
+abstract_factory_ej: CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.o
+abstract_factory_ej: CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.o
+abstract_factory_ej: CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.o
 abstract_factory_ej: CMakeFiles/abstract_factory_ej.dir/build.make
 abstract_factory_ej: CMakeFiles/abstract_factory_ej.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable abstract_factory_ej"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable abstract_factory_ej"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/abstract_factory_ej.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

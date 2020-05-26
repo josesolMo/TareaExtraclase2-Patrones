@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="abstract_factory_ej"/>
+		<Option title="examples"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -27,8 +27,8 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="abstract_factory_ej">
-				<Option output="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/abstract_factory_ej" prefix_auto="0" extension_auto="0"/>
+			<Target title="examples">
+				<Option output="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/examples" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -44,14 +44,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstract_factory_ej"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/Makefile&quot;  VERBOSE=1 examples"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="abstract_factory_ej/fast">
-				<Option output="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/abstract_factory_ej" prefix_auto="0" extension_auto="0"/>
+			<Target title="examples/fast">
+				<Option output="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/examples" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -67,7 +67,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/Makefile&quot;  VERBOSE=1 abstract_factory_ej/fast"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/Makefile&quot;  VERBOSE=1 examples/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -85,31 +85,31 @@
 			</Target>
 		</Build>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/ConcreteObserver.h">
-			<Option target="abstract_factory_ej"/>
+			<Option target="examples"/>
 		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/ConcreteSubject.h">
-			<Option target="abstract_factory_ej"/>
+			<Option target="examples"/>
 		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/Subject.h">
-			<Option target="abstract_factory_ej"/>
+			<Option target="examples"/>
 		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/main.cpp">
-			<Option target="abstract_factory_ej"/>
+			<Option target="examples"/>
 		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/Car.cpp">
-			<Option target="abstract_factory_ej"/>
+			<Option target="examples"/>
 		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/CarFactory.cpp">
-			<Option target="abstract_factory_ej"/>
+			<Option target="examples"/>
 		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/ConcreteObserver.cpp">
-			<Option target="abstract_factory_ej"/>
+			<Option target="examples"/>
 		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/ConcreteSubject.cpp">
-			<Option target="abstract_factory_ej"/>
+			<Option target="examples"/>
 		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/ObserverFiles/Subject.cpp">
-			<Option target="abstract_factory_ej"/>
+			<Option target="examples"/>
 		</Unit>
 		<Unit filename="/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

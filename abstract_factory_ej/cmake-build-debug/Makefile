@@ -123,60 +123,6 @@ abstract_factory_ej/fast:
 	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/build
 .PHONY : abstract_factory_ej/fast
 
-Car.o: Car.cpp.o
-
-.PHONY : Car.o
-
-# target to build an object file
-Car.cpp.o:
-	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/Car.cpp.o
-.PHONY : Car.cpp.o
-
-Car.i: Car.cpp.i
-
-.PHONY : Car.i
-
-# target to preprocess a source file
-Car.cpp.i:
-	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/Car.cpp.i
-.PHONY : Car.cpp.i
-
-Car.s: Car.cpp.s
-
-.PHONY : Car.s
-
-# target to generate assembly for a file
-Car.cpp.s:
-	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/Car.cpp.s
-.PHONY : Car.cpp.s
-
-CarFactory.o: CarFactory.cpp.o
-
-.PHONY : CarFactory.o
-
-# target to build an object file
-CarFactory.cpp.o:
-	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.o
-.PHONY : CarFactory.cpp.o
-
-CarFactory.i: CarFactory.cpp.i
-
-.PHONY : CarFactory.i
-
-# target to preprocess a source file
-CarFactory.cpp.i:
-	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.i
-.PHONY : CarFactory.cpp.i
-
-CarFactory.s: CarFactory.cpp.s
-
-.PHONY : CarFactory.s
-
-# target to generate assembly for a file
-CarFactory.cpp.s:
-	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/CarFactory.cpp.s
-.PHONY : CarFactory.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -204,6 +150,141 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+sources/AbstractFactoryFiles/Car.o: sources/AbstractFactoryFiles/Car.cpp.o
+
+.PHONY : sources/AbstractFactoryFiles/Car.o
+
+# target to build an object file
+sources/AbstractFactoryFiles/Car.cpp.o:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.o
+.PHONY : sources/AbstractFactoryFiles/Car.cpp.o
+
+sources/AbstractFactoryFiles/Car.i: sources/AbstractFactoryFiles/Car.cpp.i
+
+.PHONY : sources/AbstractFactoryFiles/Car.i
+
+# target to preprocess a source file
+sources/AbstractFactoryFiles/Car.cpp.i:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.i
+.PHONY : sources/AbstractFactoryFiles/Car.cpp.i
+
+sources/AbstractFactoryFiles/Car.s: sources/AbstractFactoryFiles/Car.cpp.s
+
+.PHONY : sources/AbstractFactoryFiles/Car.s
+
+# target to generate assembly for a file
+sources/AbstractFactoryFiles/Car.cpp.s:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/Car.cpp.s
+.PHONY : sources/AbstractFactoryFiles/Car.cpp.s
+
+sources/AbstractFactoryFiles/CarFactory.o: sources/AbstractFactoryFiles/CarFactory.cpp.o
+
+.PHONY : sources/AbstractFactoryFiles/CarFactory.o
+
+# target to build an object file
+sources/AbstractFactoryFiles/CarFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.o
+.PHONY : sources/AbstractFactoryFiles/CarFactory.cpp.o
+
+sources/AbstractFactoryFiles/CarFactory.i: sources/AbstractFactoryFiles/CarFactory.cpp.i
+
+.PHONY : sources/AbstractFactoryFiles/CarFactory.i
+
+# target to preprocess a source file
+sources/AbstractFactoryFiles/CarFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.i
+.PHONY : sources/AbstractFactoryFiles/CarFactory.cpp.i
+
+sources/AbstractFactoryFiles/CarFactory.s: sources/AbstractFactoryFiles/CarFactory.cpp.s
+
+.PHONY : sources/AbstractFactoryFiles/CarFactory.s
+
+# target to generate assembly for a file
+sources/AbstractFactoryFiles/CarFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/AbstractFactoryFiles/CarFactory.cpp.s
+.PHONY : sources/AbstractFactoryFiles/CarFactory.cpp.s
+
+sources/ObserverFiles/ConcreteObserver.o: sources/ObserverFiles/ConcreteObserver.cpp.o
+
+.PHONY : sources/ObserverFiles/ConcreteObserver.o
+
+# target to build an object file
+sources/ObserverFiles/ConcreteObserver.cpp.o:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.o
+.PHONY : sources/ObserverFiles/ConcreteObserver.cpp.o
+
+sources/ObserverFiles/ConcreteObserver.i: sources/ObserverFiles/ConcreteObserver.cpp.i
+
+.PHONY : sources/ObserverFiles/ConcreteObserver.i
+
+# target to preprocess a source file
+sources/ObserverFiles/ConcreteObserver.cpp.i:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.i
+.PHONY : sources/ObserverFiles/ConcreteObserver.cpp.i
+
+sources/ObserverFiles/ConcreteObserver.s: sources/ObserverFiles/ConcreteObserver.cpp.s
+
+.PHONY : sources/ObserverFiles/ConcreteObserver.s
+
+# target to generate assembly for a file
+sources/ObserverFiles/ConcreteObserver.cpp.s:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteObserver.cpp.s
+.PHONY : sources/ObserverFiles/ConcreteObserver.cpp.s
+
+sources/ObserverFiles/ConcreteSubject.o: sources/ObserverFiles/ConcreteSubject.cpp.o
+
+.PHONY : sources/ObserverFiles/ConcreteSubject.o
+
+# target to build an object file
+sources/ObserverFiles/ConcreteSubject.cpp.o:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.o
+.PHONY : sources/ObserverFiles/ConcreteSubject.cpp.o
+
+sources/ObserverFiles/ConcreteSubject.i: sources/ObserverFiles/ConcreteSubject.cpp.i
+
+.PHONY : sources/ObserverFiles/ConcreteSubject.i
+
+# target to preprocess a source file
+sources/ObserverFiles/ConcreteSubject.cpp.i:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.i
+.PHONY : sources/ObserverFiles/ConcreteSubject.cpp.i
+
+sources/ObserverFiles/ConcreteSubject.s: sources/ObserverFiles/ConcreteSubject.cpp.s
+
+.PHONY : sources/ObserverFiles/ConcreteSubject.s
+
+# target to generate assembly for a file
+sources/ObserverFiles/ConcreteSubject.cpp.s:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/ConcreteSubject.cpp.s
+.PHONY : sources/ObserverFiles/ConcreteSubject.cpp.s
+
+sources/ObserverFiles/Subject.o: sources/ObserverFiles/Subject.cpp.o
+
+.PHONY : sources/ObserverFiles/Subject.o
+
+# target to build an object file
+sources/ObserverFiles/Subject.cpp.o:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.o
+.PHONY : sources/ObserverFiles/Subject.cpp.o
+
+sources/ObserverFiles/Subject.i: sources/ObserverFiles/Subject.cpp.i
+
+.PHONY : sources/ObserverFiles/Subject.i
+
+# target to preprocess a source file
+sources/ObserverFiles/Subject.cpp.i:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.i
+.PHONY : sources/ObserverFiles/Subject.cpp.i
+
+sources/ObserverFiles/Subject.s: sources/ObserverFiles/Subject.cpp.s
+
+.PHONY : sources/ObserverFiles/Subject.s
+
+# target to generate assembly for a file
+sources/ObserverFiles/Subject.cpp.s:
+	$(MAKE) -f CMakeFiles/abstract_factory_ej.dir/build.make CMakeFiles/abstract_factory_ej.dir/sources/ObserverFiles/Subject.cpp.s
+.PHONY : sources/ObserverFiles/Subject.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +294,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... abstract_factory_ej"
 	@echo "... edit_cache"
-	@echo "... Car.o"
-	@echo "... Car.i"
-	@echo "... Car.s"
-	@echo "... CarFactory.o"
-	@echo "... CarFactory.i"
-	@echo "... CarFactory.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sources/AbstractFactoryFiles/Car.o"
+	@echo "... sources/AbstractFactoryFiles/Car.i"
+	@echo "... sources/AbstractFactoryFiles/Car.s"
+	@echo "... sources/AbstractFactoryFiles/CarFactory.o"
+	@echo "... sources/AbstractFactoryFiles/CarFactory.i"
+	@echo "... sources/AbstractFactoryFiles/CarFactory.s"
+	@echo "... sources/ObserverFiles/ConcreteObserver.o"
+	@echo "... sources/ObserverFiles/ConcreteObserver.i"
+	@echo "... sources/ObserverFiles/ConcreteObserver.s"
+	@echo "... sources/ObserverFiles/ConcreteSubject.o"
+	@echo "... sources/ObserverFiles/ConcreteSubject.i"
+	@echo "... sources/ObserverFiles/ConcreteSubject.s"
+	@echo "... sources/ObserverFiles/Subject.o"
+	@echo "... sources/ObserverFiles/Subject.i"
+	@echo "... sources/ObserverFiles/Subject.s"
 .PHONY : help
 
 

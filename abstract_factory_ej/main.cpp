@@ -5,7 +5,7 @@
 using namespace std;
 #endif
 
-#include "CarFactory.cpp"
+#include "sources/AbstractFactoryFiles/CarFactory.cpp"
 
 //#define SIMPLE_CAR 1
 #define LUXURY_CAR 1
@@ -25,3 +25,30 @@ int main() {
 
     return 0;
 }
+
+
+
+/*
+#include <iostream>
+#include <list>
+#include "headers/ObserverFIles/ConcreteSubject.h"
+#include "headers/ObserverFIles/ConcreteObserver.h"
+
+using namespace std;
+int main() {
+    //se crea el objeto observado
+    ConcreteSubject objObservado;
+
+    //se agregan observers a la lista de observers
+    objObservado.addObserver(new ConcreteObserver(objObservado));
+    objObservado.addObserver(new ConcreteObserver(objObservado));
+    objObservado.addObserver(new ConcreteObserver(objObservado));
+
+    //se modifica el name del objeto observado por ender todos los objetos son notificados
+    objObservado.setName("Mario");
+    cout<<"-----------------------------------------"<<endl;
+    //nuevamente se modifica el name del objeto observado por ender todos los objetos son notificados otra vez
+    objObservado.setName("Haziel");
+    return 0;
+}
+*/

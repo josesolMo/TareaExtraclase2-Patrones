@@ -6,19 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/Car.cpp
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/ConcreteObserver.h
+ConcreteSubject.h
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/ConcreteSubject.h
+
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/ConcreteSubject.h
+Subject.h
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/Subject.h
+
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/Observer.h
 iostream
 -
 
-/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/CarFactory.cpp
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/Subject.h
+list
+-
 iostream
 -
-Car.cpp
-/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/Car.cpp
+Observer.h
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/Observer.h
 
 /home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/main.cpp
 iostream
 -
-CarFactory.cpp
-/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/CarFactory.cpp
+sources/AbstractFactoryFiles/CarFactory.cpp
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/CarFactory.cpp
+iostream
+-
+list
+-
+headers/ObserverFIles/ConcreteSubject.h
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/ConcreteSubject.h
+headers/ObserverFIles/ConcreteObserver.h
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/headers/ObserverFIles/ConcreteObserver.h
+
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/Car.cpp
+iostream
+-
+
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/CarFactory.cpp
+iostream
+-
+Car.cpp
+/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/sources/AbstractFactoryFiles/Car.cpp
 

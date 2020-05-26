@@ -223,6 +223,12 @@ abstract_factory_ej_BINARY_DIR:STATIC=/home/jose/ProyectosGit/datos2_2020/TareaE
 //Value Computed by CMake
 abstract_factory_ej_SOURCE_DIR:STATIC=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej
 
+//Value Computed by CMake
+examples_BINARY_DIR:STATIC=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej/cmake-build-debug
+
+//Value Computed by CMake
+examples_SOURCE_DIR:STATIC=/home/jose/ProyectosGit/datos2_2020/TareaExtraclase2-Patrones/abstract_factory_ej
+
 
 ########################
 # INTERNAL cache entries
